@@ -1,11 +1,9 @@
 #!/bin/bash
-mkdir bash c js
-touch c/c_is_fun.c
-touch js/main.js
-touch js/index.js
+rmdir js
+
+touch bash/98
+
 
 echo '#!/bin/bash' > bash/alx
-echo 'echo "ALX"' >> bash/alx
+echo 'echo "ALX School is so cool!"' >> bash/alx
 
-echo '#!/bin/bash' > bash/school
-echo 'echo "School"' >> bash/school
