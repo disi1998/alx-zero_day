@@ -1,9 +1,20 @@
 #!/bin/bash
+<<<<<<< HEAD
 rmdir js
+=======
+
+>>>>>>> update_script
 
 touch bash/98
 
 
 echo '#!/bin/bash' > bash/alx
+<<<<<<< HEAD
 echo 'echo "ALX School is so cool!"' >> bash/alx
 
+=======
+echo 'echo "ALX School""' >> bash/alx
+
+echo '#!/bin/bash' > bash/school
+echo 'echo "The school is open!"' >> bash/school
+>>>>>>> update_script
